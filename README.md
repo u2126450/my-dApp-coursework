@@ -1,7 +1,43 @@
-# Complete-DApp---Solidity-React---Blockchain-Development
-DApp (decentralized application) operates on a blockchain network. DApps are decentralized and rely on a distributed network of computers rather than a central server. They use smart contracts for automation and tokens for transactions and are open source, promoting transparency.
+# CN6035 Coursework – Decentralized Banking DApp
 
-This course is designed to equip us with the essential skills and knowledge needed to become proficient in building decentralized applications (DApps) on the blockchain. Starting with an introduction to blockchain technology and decentralization, the course progresses through hands-on tutorials covering Solidity, the Ethereum blockchain, smart contracts, and front-end development using React. Students will learn to create, compile, and deploy smart contracts, build DApp user interfaces, and interact with the Ethereum blockchain. The course delves into advanced topics such as token creation, NFT marketplaces, and DeFi concepts. With practical exercises and projects like building a voting system, practical experience in DApp development, and optional sections on UI animation and React and state, learners will gain opportunities for further skill enhancement.
+Overview
 
-By the end of this course, we will have a robust understanding of DApp development and the ability to build and deploy their DApp. The course imparts essential technical skills and emphasizes real-world project structuring, understanding DApp development, and preparing us for freelancing opportunities and blockchain careers.
+This project is a Hybrid Decentralized Application (DApp) built as part of CN6035 module coursework. It enables users to stake tokens, earn rewards, and interact with smart contracts on the Ethereum **Sepolia testnet** using MetaMask.
+
+---
+
+Technologies Used
+
+- **Frontend**: React.js (via `create-react-app`)
+- **Smart Contracts**: Solidity (Tether, RWD, DecentralBank)
+- **Blockchain Framework**: Truffle
+- **Wallet Integration**: MetaMask
+- **Testnet**: Ethereum Sepolia via Infura
+- **Version Control**: Git & GitHub
+
+---
+
+Features
+
+- Connect to wallet via MetaMask
+- Stake Tether (USDT) tokens
+- Receive RWD tokens as rewards
+- Withdraw (unstake) at any time
+- Interact with real blockchain on Sepolia testnet
+
+---
+
+Smart Contracts
+
+Deployed via `truffle migrate --network sepolia`.
+
+| Contract        | Address                    |
+|----------------|----------------------------|
+| Tether         | `0x...` (your deployed address) |
+| RWD            | `0x...`                    |
+| DecentralBank  | `0x...`                    |
+
+_ABIs are stored in `/src/truffle_abis/`_
+
+---
 
